@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="216" viewBox="0 0 216 216">
+<filter id="blurMe">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+  </filter>
+  <g id="_4c6260bfed9fd603c389ce8fac43b510" data-name="4c6260bfed9fd603c389ce8fac43b510" transform="translate(18 18)" fill="none" stroke="#066877" stroke-width="3" stroke-dasharray="80 270">
+    <circle cx="90" cy="90" r="90" stroke="none"  filter="url(#blurMe)"/>
+    <circle cx="90" cy="90" r="91.5" fill="none"  filter="url(#blurMe)"/>
+  </g>
+</svg>
