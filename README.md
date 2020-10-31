@@ -6,7 +6,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-<span style="text-align: center"> <a href src="https://www.kacpermichalak.com"> Preview</a> </span>
+<div width="100%"> <span style="text-align: center"> <a href src="https://www.kacpermichalak.com"> Preview</a> </span> </div>
+
 ## About porfolio-km
 
 
