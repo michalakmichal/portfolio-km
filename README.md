@@ -6,8 +6,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-<div width="100%"> <p align="center"> <a href src="https://www.kacpermichalak.com"> Preview</a> </p> </div>
  -->
+<div width="100%"> <p align="center"> Live <a href src="https://www.kacpermichalak.com"> websie</a> preview </p> </div>
+
 ## About porfolio-km
 
 <p> Database connections are handled in Repository with Laravel ORM.</p>
@@ -27,6 +28,7 @@
 - css animations and transitions
 - state management
 - REST API
+- async & await
 ### ?
 - Adobe XD
 ## Mockup
