@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
  -->
-<div width="100%"> <p align="center"> Live <a href src="https://www.kacpermichalak.com"> websie</a> preview </p> </div>
+<div width="100%"> <p align="center"> Live <a href src="https://www.kacpermichalak.com"> website</a> preview </p> </div>
 
 ## About porfolio-km
 
