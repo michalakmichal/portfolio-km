@@ -12,7 +12,8 @@
 
 <p> Database connections are handled in Repository with Laravel ORM.</p>
 <p> Vue components manage asynchronous API calls. </p>
-<p> Static content is placed in '/static' directory. </p>
+<p> ViewControlller is responsible for rendering proper view and its transitions. </p>
+<p> Reusable components are stored in '/components/partials'.</p>
 
 ## Built with
 - Laravel
