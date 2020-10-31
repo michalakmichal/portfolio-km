@@ -11,11 +11,7 @@
 
 ## About porfolio-km
 
-<p> Database connections are handled in Repository with Laravel ORM.</p>
-<p> Vue components manage asynchronous API calls. </p>
-<p> ViewControlller is responsible for rendering proper view and its transitions. </p>
-<p> Reusable components are stored in '/components/partials'.</p>
-<p> Code and project patterns are explained on my <a href="https://www.google.com"> blog </a>. </p>
+...
 
 ## Built with
 - Laravel
@@ -29,6 +25,13 @@
 - state management
 - REST API
 - async & await
+### ...
+<p> Database connections are handled in Repository with Laravel ORM.</p>
+<p> Vue components manage asynchronous API calls. </p>
+<p> ViewControlller is responsible for rendering proper view and its transitions. </p>
+<p> Reusable components are stored in '/components/partials'.</p>
+<p> Code and project patterns are explained on my <a href="https://www.google.com"> blog </a>. </p>
+
 ### ?
 - Adobe XD
 ## Mockup
