@@ -23,7 +23,7 @@ height: 100%;
                 <div id="display_2"> 
                       <div class="title">  
                         <span> a </span>
-                            <span style="color: white"> succesful </span>
+                            <span style="color: white"> successfull </span>
                       </div>
                 </div>
                 <div id="display_3"> 
@@ -41,12 +41,13 @@ height: 100%;
                             is a
                       </div>
                 </div>
+                <div id="labelProcess" class="mobile"> PROCESS </div>
             </div>
      </div>
-     <div class="sectionWrapper" id="sectionWrapper_1">
+     <div class="sectionWrapper" id="sectionWrapper_4">
             <div class="imageWrapper" id="imageWrapper_4"> 
                 <img src="/img/46.png" id="img_4"/>
-                <div id="display_5"> 
+                <div id="display_5" class="desktop"> 
                       <div class="title">  
                         PROCESS
                       </div>
@@ -59,10 +60,15 @@ height: 100%;
             </div>
      </div>
       <div class="sectionWrapper" id="sectionWrapper_5">
+                    <div id="labelWrapper" class="mobile">
+                        <div id="label_0">  make </div>
+                        <div id="label_1">  your </div>
+                        <div id="label_2">  idea </div>
+                    </div>
             <div class="imageWrapper" id="imageWrapper_5"> 
                 <img src="/img/47.png" id="img_5"/>
                 <div id="display_7"> 
-                     <div class="title">  Make your idea
+                     <div class="title desktop">  Make your idea
                       </div>
                 </div>
                 <div id="display_8"> 
@@ -145,8 +151,14 @@ height: 100%;
 .slide-right-leave-to {
      transform: translateX(0%);
 }
-
-
+#commercialView .mobile
+{
+    display: none;
+}
+#commercialView .desktop
+{
+    display: block;
+}
 .title a
 {
      text-decoration: none !important;
@@ -160,12 +172,26 @@ height: 100%;
 #commercialView #sectionWrapper_1
 {
     text-align: right;
+    padding: 2.5vw 0;
 }
 #commercialView #sectionWrapper_2
 {
     text-align: center;
+    padding: 5vw;
 }
-
+#commercialView #sectionWrapper_3
+{
+    text-align: left;
+}
+#commercialView #sectionWrapper_4
+{
+    text-align: right;
+    padding-top: 6vw;
+}
+#commercialView #sectionWrapper_5
+{
+    padding-top: 10vw;
+}
 #commercialView
 {
     background: black;
@@ -174,30 +200,55 @@ height: 100%;
      display: inline-block;
      position: relative;
 }
-#commercialView  #imageWrapper_4
-{
-    right: 18%;
-}
-#commercialView  #imageWrapper_5{
-    padding-top: 6.5vw;
-    left: 5%;
-}
-#commercialView #img_1
+#commercialView #imageWrapper_1
 {
     animation: none;
     margin: 0;
     position: relative;
     width: 39vw;
     right: 14%;
-    padding-bottom: 2.5vw;
+}
+#commercialView #imageWrapper_2
+{
+    animation: none;
+    margin: 0;
+    position: relative;
+    width: 38vw;
+}
+#commercialView #imageWrapper_3
+{
+    animation: none;
+    margin: 0;
+    position: relative;
+    width: 38vw;
+    left: 10%;
+}
+#commercialView  #imageWrapper_4
+{
+    animation: none;
+    margin: 0;
+    position: relative;
+    width: 35vw;
+    right: 14%;
+}
+#commercialView  #imageWrapper_5{
+    animation: none;
+    margin: 0;
+    position: relative;
+    width: 38vw;
+    padding: 0;
+}
+#commercialView #img_1
+{
+    width: 100%;
 }
 #commercialView #display_1
 {
     position: absolute;
     animation: none;
     top: 45%;
-    left: -32.5%;
-    transform: translateX(-50%);
+    left: 0;
+    transform: translateX(-77%);
     z-index: 3;
     font-family: Muli;
 
@@ -217,11 +268,7 @@ height: 100%;
 
 #commercialView #img_2
 {
-    animation: none;
-    margin: 0;
-    position: relative;
-    width: 38vw;
-    padding: 5vw 0;
+    width: 100%;
 }
 #commercialView #display_2
 {
@@ -247,13 +294,7 @@ height: 100%;
 }
 #commercialView #img_3
 {
-    animation: none;
-    margin: 0;
-    position: relative;
-    width: 38vw;
-    padding-bottom: 2.5vw;
-    left: 10%;
-
+    width: 100%;
 }
 #commercialView #display_3
 {
@@ -284,24 +325,17 @@ height: 100%;
 }
 #commercialView #img_4
 {
-    animation: none;
-    margin: 0;
-    position: relative;
-    width: 35vw;
-    padding-top: 6vw;
-    padding-bottom: 2.5vw;
-
+   width: 100%;
 }
 #commercialView #display_4
 {
     position: absolute;
     animation: none;
     top: 50%;
-    right: 9.5%;
-    transform: translateX(100%);
+    right: 0;
+    transform: translate(68%,-50%);
     z-index: 3;
     font-family: Muli;
-
 }
 #commercialView #display_4 .title
 {
@@ -317,23 +351,16 @@ height: 100%;
 }
 #commercialView #img_5
 {
-    animation: none;
-    margin: 0;
-    position: relative;
-    width: 38vw;
-    padding: 0;
-    padding-bottom: 5vw;
-
+    width: 100%;
 }
 #commercialView #display_5
 {
     position: absolute;
     animation: none;
     top: 0;
-    transform: translate(-35%, 0);
+    transform: translate(-30%, -120%);
     z-index: 3;
     font-family: Muli;
-
 }
 #commercialView #display_5 .title
 {
@@ -392,7 +419,7 @@ height: 100%;
     position: absolute;
     animation: none;
     top: 0;
-    transform: translate(50%, 0);
+    transform: translate(50%, -130%);
     z-index: 3;
     font-family: Muli;
 }
@@ -509,5 +536,154 @@ height: 100%;
     text-align: left;
     color: #707070;
 }
-
+#commercialView #labelProcess
+{
+    font-size: 8vw;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-100%,-50%);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #A09C23;
+}
+@media(max-width: 767px)
+{
+    #commercialView .desktop
+    {
+        display: none;
+    }
+    #commercialView .mobile
+    {
+        display: block;
+    }
+    #commercialView .sectionWrapper
+    {
+        width: 90%;
+        font-family: Muli;
+    }
+    #commercialView #sectionWrapper_1
+    {
+        text-align: right;
+        padding-top: 30vw;
+    }
+    #commercialView #imageWrapper_1
+    {
+        width: 60vw;
+        right: 0;
+    }
+    #commercialView #display_1
+    {
+        top: 0;
+        left: auto;
+        right: 0;
+        transform: translate(0, -120%);
+    }
+    #commercialView #display_1 .title
+    {
+        font-size: 8vw !important;
+        letter-spacing: 3vw;
+        margin-right: -3vw;
+    }
+    #commercialView #sectionWrapper_2
+    {
+        text-align: left;
+        padding-top: 13vw;
+    }
+    #commercialView #imageWrapper_2
+    {
+        width: 72vw;
+        right: 0;
+    }
+    #commercialView #display_2
+    {
+        left: 0;
+        transform: translate(0, -120%);
+    }
+    #commercialView #display_2 .title
+    {
+        font-size: 8vw !important;
+    }
+    #commercialView #display_3
+    {
+        right: 0;
+        left: auto;
+        top: 0;
+        transform: translate(100%, 0);
+    }
+    #commercialView #display_3 .title
+    {
+        font-size: 8vw !important;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        transform: translateX(50%);
+        margin-top: 2vw;
+    }
+    #commercialView #sectionWrapper_3
+    {
+        text-align: right;
+        padding-top: 8vw;
+    }
+    #commercialView #imageWrapper_3
+    {
+        width: 72vw;
+        left: auto;
+    }
+    #commercialView #sectionWrapper_4
+    {
+        text-align: left;
+        padding-top: 12vw;
+    }
+    #commercialView #sectionWrapper_5
+    {
+        padding-top: 0;
+    }
+    #commercialView #imageWrapper_4
+    {
+        width: 72vw;
+        left: 0;
+        right: auto;
+    }
+    #commercialView #display_4
+    {
+        right: auto;
+        left: 0;
+        top: 0;
+        transform: translate(0, -100%);
+    }
+    #commercialView #display_4 .title
+    {
+        font-size: 8vw !important;
+        transform: translate(0);
+    }
+    #commercialView #display_6
+    {
+        right: 0;
+        left: auto;
+        top: 0;
+        transform: translate(0, -100%);
+    }
+    #commercialView #display_6 .title
+    {
+        font-size: 8vw !important;
+        transform: translate(0);
+    }
+    #commercialView #labelWrapper 
+    {
+        font-size: 8vw !important;
+        text-align: center;
+        padding: 10vw 0;
+        color: #C9B57E;
+        letter-spacing: 3vw;
+        margin-right: -3vw;
+        font-weight: bold;
+    }
+    #commercialView #label_1
+    {
+       color: #EAEDF6;
+       letter-spacing: 6vw;
+       margin-right: -3vw;
+       padding: 2vw 0;
+    }
+}
 </style>

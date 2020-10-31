@@ -8,7 +8,11 @@
      <router-link :to="{ name: 'aboutme' }" :class=" this.prevRoute.name=='aboutme' ? 'active' : null"> About me </router-link> 
         <router-link :to="{ name: 'contact' }" :class=" this.prevRoute.name=='contact' ? 'active' : null"> Contact </router-link>
 </div>
-
+    <div id="animationWrapper"> 
+        <div class="circle" id="circle_0"> </div>
+        <div class="circle" id="circle_1"> </div>
+        <div class="circle" id="circle_2"> </div>
+    </div>
 </div>
 </template>
 <script>
@@ -66,7 +70,78 @@
     flex-grow: 1;
     display: flex;
     flex-flow: column;
-    
+}
+#menuMobileView #animationWrapper
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#menuMobileView .circle
+{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: #DEDEDE;
+    filter: blur(0.5vw);
+    position: absolute;
+}
+#menuMobileView #circle_0
+{
+    right: 0;
+    top: 0;
+    transform: translate(0, 0);
+    animation: animation_0 2s infinite;
+}
+#menuMobileView #circle_1
+{
+    left: 0;
+    top: 20%;
+    animation: animation_1 2s infinite;
+}
+#menuMobileView #circle_2
+{
+    right: 0;
+    bottom: 20%;
+    transform: translate(0, 0);
+}
+@keyframes animation_0
+{
+    0%{
+        right: 0;
+        top: 0;
+    }
+    25%
+    {
+        top: 20%;
+        right: 100%;
+        transform: translate(100%,0);
+    }
+    50%
+    {
+       top: 80%;
+       right: 0%;
+       transform: translate(0,-100%);
+    }
+    100%
+    {
+        right: 0;
+        top: 0;
+    }
+}
+@keyframes animation_1
+{
+    0%{
+        top: 20%;
+        left: 0;
+    }
+    100%
+    {
+        left: 100%;
+        top: 0;
+        transform: translate(-100%,0);
+
+    }
 }
 @media(min-width: 767px)
 {

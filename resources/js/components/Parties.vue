@@ -179,6 +179,10 @@ height: 100%;
 {
     display: none;
 }
+#partiesView #labelGround
+{
+    display: none;
+}
 .sectionWrapper
 {
     text-align: left;
@@ -574,6 +578,18 @@ a
         font-size: 8vw;
         color: #960404 !important;
     }
+    #partiesView #display_7 .title
+    {
+        font-size: 5vw !important;
+    }
+    #partiesView #display_8
+    {
+        bottom: 2.5vw !important;
+    }
+     #partiesView #display_8 .title
+    {
+        font-size: 3vw !important;
+    }
     #partiesView #display_5
     {
         display: none;
@@ -599,6 +615,7 @@ a
     #partiesView #sectionWrapper_1
     {
         text-align: center;
+        padding-top: 0;
     }
     #partiesView #sectionWrapper_2
     {
